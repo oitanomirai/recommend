@@ -328,7 +328,8 @@ figcaption {
   color: #aaa;
   letter-spacing: .5px;
   text-transform: none;
-  margin-right: 22px;
+  margin-left: 40px;
+  margin-right: 20px;
   font-size: 12px;
   font-weight: 600;
   line-height: 120%;
@@ -343,6 +344,7 @@ figcaption {
 
 .nav-link.w--current {
   color: #333;
+  margin-left: 20px;
   margin-right: 40px;
   line-height: 120%;
 }
@@ -865,6 +867,11 @@ figcaption {
   display: block;
 }
 
+.text-block {
+  font-size: 12px;
+  display: inline-block;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-link {
     text-align: center;
@@ -1088,6 +1095,10 @@ figcaption {
   .nav-link {
     margin-top: 4px;
     margin-bottom: 4px;
+  }
+
+  .nav-link.float-right {
+    margin-left: 20px;
   }
 
   .nav-link.float-right.w--current {

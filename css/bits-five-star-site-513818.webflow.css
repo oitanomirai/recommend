@@ -776,8 +776,10 @@ figcaption {
 }
 
 .map-code {
+  width: 100%;
   margin-bottom: 20px;
   display: inline-block;
+  overflow: clip;
 }
 
 .div-block {
